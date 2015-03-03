@@ -4,26 +4,38 @@
 body{
 	font-family: Roboto, sans-serif;
 	font-size:18px;
-	color:#5d5e5f;
-	font-weight:100;
+	color:#1B1C1C;
+	font-weight:600;
 	overflow-x:hidden;
 }
 
 h1,
 h2,
-h3,
+h3
+{
+    font-family: Roboto, sans-serif;
+    font-weight:400;
+    
+    
+}
+
+
 h4,
 h5,
 h6{
 	font-family: Roboto, sans-serif;
-    font-weight:100;
+    font-weight:400;
+    text-align: left !important;
+    
 }
 
 p {
     font-size:16px;
     line-height:24px;
-    font-weight:300;
+    font-weight:200;
     margin-bottom:20px;
+
+
 }
 
 .lead {
@@ -299,7 +311,7 @@ a.btn-theme:focus{
     font-size:50px;
     line-height:54px;
     font-weight:500;
-    color:#818181;
+    color:#000000;
     -webkit-transition:font-size .2s ease-out;
     transition:font-size .2s ease-out;
 }
@@ -355,11 +367,11 @@ a.btn-theme:focus{
 #main-nav .nav a:active,
 #main-nav .nav a:hover{
     padding:0px 10px;
-    font-size:26px;
+    font-size:22px;
     line-height:54px;
-    font-weight:100;
+    font-weight:500;
     background:transparent;
-    color:#777;
+    color:#000000;
 }
 
 #main-nav .nav a:before {
